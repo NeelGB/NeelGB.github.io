@@ -1088,7 +1088,7 @@
       <!-- RESEARCH TEXT -->
       <div class="research-content">
         <p class="lede-para">I build <b>multimodal human–robot interaction systems</b> that fuse foundation models with physical robot control — so robots can act on how people <em>actually</em> give instructions.</p>
-        <p>At the HiRo Lab I'm developing a system that integrates a <b>GPT-4 planning module</b> with <b>gaze tracking</b> and <b>voice input</b> for shared autonomy in manipulation tasks. The module maps natural language + gaze signals onto executable action primitives through prompt engineering and function-calling schemas, learning from iterative user feedback.</p>
+        <p>At the HiRo Lab I'm developing a system that integrates a <b>GPT-5.4 planning module</b> with <b>gaze tracking</b> and <b>voice input</b> for shared autonomy in manipulation tasks. The module maps natural language + gaze signals onto executable action primitives through prompt engineering and function-calling schemas, learning from iterative user feedback.</p>
         <p>We're currently extending the system from <b>Microsoft HoloLens to Tobii Pro Glasses 3</b> for better wearability, and scaling task complexity to multi-step hospital-room cleaning scenarios. Real-time inference runs on an <b>NVIDIA Jetson Orin AGX</b>.</p>
 
         <div class="metrics-row">
@@ -1097,7 +1097,7 @@
             <div class="metric-label">Intent-recognition<br>improvement</div>
           </div>
           <div class="metric">
-            <div class="metric-val">GPT-4</div>
+            <div class="metric-val">GPT-5.4</div>
             <div class="metric-label">Foundation model<br>for action planning</div>
           </div>
           <div class="metric">
@@ -1109,7 +1109,7 @@
         <div class="hardware-row">
           <span class="chip">Tobii Pro Glasses 3</span>
           <span class="chip">NVIDIA Jetson Orin AGX</span>
-          <span class="chip">GPT-4 API</span>
+          <span class="chip">GPT-5.4 API</span>
           <span class="chip">ROS 2</span>
           <span class="chip">PyTorch</span>
           <span class="chip chip-stack-policy">stack · high-level policy</span>
@@ -1913,7 +1913,7 @@
     llm: {
       intent: 'inspect(modality="language")',
       grounding: [
-        { label: 'HiRo — GPT-4 planner',      score: 0.96 },
+        { label: 'HiRo — GPT-5.4 planner',      score: 0.96 },
         { label: 'TAMP — symbolic (pddl)',    score: 0.29 }
       ],
       action: { scroll: 'research', gesture: 'prev' }
